@@ -1,0 +1,38 @@
+---
+title: "Module 1 assignment"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Task 1: Git configuration
+
+1.  Replace the placeholder **Your Name** with your GitHub username
+
+2.  Replace **Your Email** with your email address
+
+3.  Keep the quotes!
+
+4.  Save the file by clicking on the **Save** icon in the Source pane or by pressing `Ctrl + S` (Windows/Linux) or `Cmd + S` (Mac).
+
+5.  Render the document by clicking the **Render** button in the Source pane.
+
+These will be the details that git will use to identify you when you make changes to your work.
+
+```{r}
+library(usethis)
+use_git_config(user.name = "Your Name", user.email = "Your Email")
+```
+
+## Task 2: Data communication
+
+**In the YAML header (between the three dashes at the top of the document)**
+
+1.  Add your name as the author of this document.
+
+2.  Render the document and fix any errors.
+
+## Task 3: Commit & Push & Issue
+
+-   Refer back to the instructions on the course website to complete the assignment: <https://ds4owd-002.github.io/website/content/assignments/md-01/md-01.html>
