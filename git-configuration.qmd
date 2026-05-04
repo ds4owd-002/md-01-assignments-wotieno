@@ -22,7 +22,7 @@ These will be the details that git will use to identify you when you make change
 
 ```{r}
 library(usethis)
-use_git_config(user.name = "Your Name", user.email = "Your Email")
+use_git_config(user.name = "WOtieno", user.email = "wycliffeawino246@gmail.com")
 ```
 
 ## Task 2: Data communication
